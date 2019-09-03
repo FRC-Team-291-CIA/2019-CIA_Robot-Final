@@ -50,7 +50,7 @@ public class CIAClimber {
 
     public static enum ClimbState {
         STATIOANRY, //For no action
-        MOVING //Climbs
+        MOVING //For Moving
     }
 
     public void setClimbState(ClimbState wantedState, double axisSpeed){
